@@ -8,14 +8,8 @@
     src: url("big_noodle_titling_oblique.ttf");
 }
 
-.headerbg {
-    background-image: url(https://bnetcmsus-a.akamaihd.net/cms/blog_header/a5/A54ZNOI0UDS41686104831926.png);
-    background-repeat: no-repeat;
-}
-
-.hcent {
-    align-items: center;
-    width: 100%;
+body {
+    background-color: #e1e6eb;
 }
 
 .heroicon {
@@ -30,10 +24,20 @@
     position: absolute;
 }
 
+.footer {
+    text-align: center;
+    background-color: #1f252b;
+    padding: 7px 7px 1px 7px;
+}
+
+.heroimg {
+    max-width: 50%;
+}
+
 h1 {
     font-family: "Big Noodle Titling Oblique", Verdana, sans-serif;
     color: #333E48;
-    font-size: 128px;
+    font-size: 100px;
     letter-spacing: 12px;
 }
 
@@ -46,7 +50,5 @@ h3 {
 }
 
 h6 {
-    color: #333E48;
+    color: #ffffff;
 }
-
-
