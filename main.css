@@ -19,9 +19,18 @@ body {
     border-radius: 5px;
 }
 
+.headerbg {
+    background-image: url("https://bnetcmsus-a.akamaihd.net/cms/blog_header/a5/A54ZNOI0UDS41686104831926.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
 .logo {
     filter: drop-shadow(0px 0px 75px rgba(255,255,255,1));
-    position: absolute;
+    height: 70%;
+}
+
+.logodiv {
+    height: 70%;
 }
 
 .footer {
@@ -34,6 +43,12 @@ body {
     max-width: 50%;
 }
 
+.heroshadow {
+    background-image: url("heroshadow.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
 h1 {
     font-family: "Big Noodle Titling Oblique", Verdana, sans-serif;
     color: #333E48;
