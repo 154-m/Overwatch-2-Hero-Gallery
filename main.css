@@ -35,12 +35,9 @@ body {
 
 .logo {
 	filter: drop-shadow(0px 0px 75px rgba(255,255,255,1));
-	width: auto; /* Ensures the image is responsive */
-	height: 100%; /* Keeps the image aspect ratio *
-}
-
-.logodiv {
-    height: 70%;
+	width: auto;
+    max-width: 63%;
+	height: 90%;
 }
 
 .footer {
@@ -49,16 +46,13 @@ body {
     padding: 7px 7px 1px 7px;
 }
 
-.heroimg {
-    max-width: 50%;
-}
-
 .heroshadow {
     background-image: url("heroshadow.png");
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: contain;
 }
+
 h1 {
     font-family: "Big Noodle Titling Oblique", Verdana, sans-serif;
     color: #333E48;
@@ -71,6 +65,14 @@ h2 {
 }
 
 h3 {
+    color: #333E48;
+}
+
+h4 {
+    color: #333E48;
+}
+
+h5 {
     color: #333E48;
 }
 
